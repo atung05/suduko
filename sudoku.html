@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Anthony Tung, 2022 Nov -->
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sudoku Solution</title>
+	<!-- <script src="sudoku_helpers.js?<?php echo filemtime('sudoku_logic.js'); ?>"></script>
+	<script src="sudoku_canvas.js?<?php echo filemtime('sudoku_logic.js'); ?>"></script>
+	<script src="sudoku_logic.js?<?php echo filemtime('sudoku_logic.js'); ?>"></script> -->
+
+	<script src="sudoku_helpers.js?t=1234" defer></script>
+	<script src="sudoku_canvas.js?t=1234" defer></script>
+	<script src="sudoku_logic.js?t=1234" defer></script>
+
+	<!-- <script src="sudoku_helpers.js" defer></script>
+	<script src="sudoku_canvas.js" defer></script>
+	<script src="sudoku_logic.js" defer></script> -->
+</head>
+
+<body>
+	<canvas id="myCanvas" height="340" width="300" style="border: 1px solid black"></canvas>
+	<br>
+	<input type="button" value="Clear Board" id="btnID0">
+	<input type="button" value="Run" id="btnID1">
+	<input type="button" value="All Hints" id="btnID2">
+	<p></p>
+	<input type="button" value="Game 0" id="btnG_ID0">
+	<input type="button" value="Game 1" id="btnG_ID1">
+	<input type="button" value="Game 2" id="btnG_ID2">
+	<input type="button" value="Game 3" id="btnG_ID3">
+	<p></p>
+	<input type="button" value="Naked Single" id="btn_A0">
+	<input type="button" value="Hidden Single" id="btn_A1">
+	<input type="button" value="Naked Pair" id="btn_A2">
+	<p></p>
+	<div id="messageID0"></div>
+	<div id="messageID1"></div>
+</body>
+
+</html>
